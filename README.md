@@ -1,6 +1,5 @@
 # Project_337
-Website Kelola Gudang Pabrik
-Tugas sekolah :v
+Website Kelola Gudang Pabrik.
 
 Anggota Kelompok:
 - Ahmad Abi Wahyu Aji (3)
