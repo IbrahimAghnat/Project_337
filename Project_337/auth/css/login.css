@@ -1,0 +1,110 @@
+  body {
+    margin: 0;
+    font-family: "Habibi", serif;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Logo kiri atas */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .logo img {
+    height: 120px;
+  }
+
+  .c_login-frame1 {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .c_login-text8 {
+    font-family: "Grenze", serif;
+    font-size: 64px;
+    margin-bottom: 40px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .input-group label {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .input-group input {
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+    padding-right: 50px; 
+  }
+
+  .input-group input:focus {
+    border-color: #004aad;
+    box-shadow: 0 0 8px rgba(0,74,173,0.6);
+  }
+
+  .password-group {
+    position: relative;
+  }
+
+  .toggle-eye {
+    position: absolute;
+    right: 20px;
+    top: 68%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+
+  .toggle-eye:hover {
+    opacity: 1;
+  }
+
+  .c_login-component {
+    background-color: #004aad;
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .c_login-component:hover {
+    background-color: #003580;
+  }
+
+  .c_login-component.pressed {
+    transform: scale(0.95);
+    background-color: #002b66;
+  }
+
+  .error-msg {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+  }
